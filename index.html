@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/a9412601fd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <section id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, i'm <span>David</span> </h1>
+                <p>UI/UX Designer</p>
+                <p>Web Developer</p>
+                <p>Developer App</p>
+            </div>
+        </div>
+    </section>
+    
+<!-----------------------------------------------------------------------------------------About---------------------------------------------------- -->
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="beure.png">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Nam impedit natus amet laboriosam laborum. Quaerat perferendis molestias, 
+                        reprehenderit, pariatur enim esse quod voluptatibus temporibus minus ea obcaecati quo libero officiis.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/ App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>UI/UX Design Training at LA FORGE</li>
+                            <li><span>2019 - 2021</span><br>Team lead at StartApp</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at coin Digital Ltd.</li>
+                            <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>UI/UX Design Training at ET insitute</li>
+                            <li><span>2017</span><br>MBA from MIT Bangalore.</li>
+                            <li><span>2018</span><br>BBA from ISM Bangalore.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- ---------------------- ------------------------------------------- Services --------------------------------------------------------------->
+
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, tempore. 
+                        Minus, unde ex incidunt labore, beatae maxime asperiores eius deleniti deserunt, 
+                        ipsam dicta doloribus cum blanditiis excepturi reiciendis iure ea.
+                    </p>
+                    <a href="#" class="more">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, tempore. 
+                        Minus, unde ex incidunt labore, beatae maxime asperiores eius deleniti deserunt, 
+                        ipsam dicta doloribus cum blanditiis excepturi reiciendis iure ea.
+                    </p>
+                    <a href="#" class="more">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fas fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, tempore. 
+                        Minus, unde ex incidunt labore, beatae maxime asperiores eius deleniti deserunt, 
+                        ipsam dicta doloribus cum blanditiis excepturi reiciendis iure ea.
+                    </p>
+                    <a href="#" class="more">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!-- --------------------------------------------------------------------------- Portfolio ----------------------------------------------------------->
+
+    <section id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work-item">
+                    <img src="chatApp_home.png" alt="portfolio-1">
+                    <div class="layout">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you on the talented people around the world
+                            Download it from play store.
+                        </p>
+                        <a href="#" class="more"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <img src="chatbot.png" alt="portfolio-2">
+                    <div class="layout">
+                        <h3>Meeting App</h3>
+                        <p>The app connects you on the talented people around the world
+                            Download it from play store.
+                        </p>
+                        <a href="#" class="more"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <div class="work-item">
+                    <img src="test4.png" alt="portfolio-3">
+                    <div class="layout">
+                        <h3>Online Chopping App</h3>
+                        <p>The app connects you on the talented people around the world
+                            Download it from play store.
+                        </p>
+                        <a href="#" class="more"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </section>
+
+    <!----------------------------------------CONTACT ------------------------------------------------------------------------------->
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> dtaty2024@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +212 0614-482203</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href=""  download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; 2024 All rights reserved | This template is made with</p>
+        </div>
+    </section>
+
+</body>
+<script>
+    
+var sidemeu = document.getElementById("sidemenu");
+
+function closemenu(){
+    sidemeu.style.right = "-200px";
+}
+function openmenu(){
+    sidemeu.style.right = "0";
+}
+
+</script>
+</html>
