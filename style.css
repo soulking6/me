@@ -417,6 +417,7 @@ nav .fas{
     
     #header{
         background-image: url(R.jpeg);
+        border-image: fill 0 linear-gradient(rgba(95, 95, 95, 0.507), rgba(0, 0, 0, 0.575));
     }
     .header-text{
         margin-top: 100%;
